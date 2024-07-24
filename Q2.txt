@@ -1,0 +1,15 @@
+Explain the role of follwing key properties in flexbox layout model in CSS.
+1. justify-content
+2. align-items
+3. gap
+4. flex-direction
+5. flex-wrap
+
+1. The CSS justify-content property defines how the browser distributes the space between ans around 
+contnet items along the main axis of a flex container ans the inline axis of gris and multicol 
+containers.
+In flex layouts, the property defines how positive free space is distributed between or around flex 
+items along the main axis. This property impacts the space between elements in a line, not the space
+between lines.
+
+2. 
