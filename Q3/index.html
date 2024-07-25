@@ -1,0 +1,32 @@
+<!-- Write a code to center a div using CSS Flexbox -->
+<!-- 
+align-item : where on a cross axis the items are going to be placed.
+align-content : how the spacing between cross axis has to be maintained. it is about the distribution.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        #square{
+            background-color: greenyellow;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="square"></div>
+    </div>
+</body>
+</html>

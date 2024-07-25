@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round' ,sans-serif;
+    box-sizing: border-box;
+}
+
+/* utility classes */
+.align-txt-start{
+    align-self: start;
+    text-align: start;
+}
+
+.pricing-card-container {
+    background-color: #F4F2FD;
+    display: flex;
+    padding: 16px;
+    border: solid 1px;
+    justify-content: center;
+    margin: 10px;
+    padding: 50px;
+}
+.pricing-card-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 350px;
+    background: white;
+    padding:  32px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+#price-card-middle{
+    background-color: rgb(32 40 66);
+    color: white;
+}
+
+.price-card-title {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.price-card-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.price-card-price {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.price-list-items {
+    padding-bottom: 10px;
+}
+.price-list-item{
+    margin-bottom: 10px;
+}
+.subscribe-button {
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(32 40 66);
+    color: white;
+}
+#subscribe-button-middle{
+    background-color: white;
+    color:   rgb(32 40 66);;
+}
+
+
